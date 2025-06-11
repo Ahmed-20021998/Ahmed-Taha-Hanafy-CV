@@ -20,6 +20,8 @@ import convex from "../public/convex.png"
 import clerk from "../public/clerk.png"
 import stripe from "../public/stripe.png"
 import resend from "../public/resend.png"
+import node from "../public/node.png"
+
 
 
 
