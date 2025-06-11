@@ -32,10 +32,15 @@ const groupedSkills = [
         skills: [
             { name: "JavaScript", image: JS },
             { name: "Python", image: python },
-            { name: "OOP", image: OOP },
-            { name: "Data Struture", image: DS },
+        ],
+    },
+    {
+        title: "Computer Science Concepts",
+        skills: [
+            { name: "Object Oriented Programming", image: OOP },
+            { name: "Data Structure", image: DS },
             { name: "Algorithms", image: ALgorithm },
-            { name: "Problem Sloving", image: problem },
+            { name: "Problem Solving", image: problem },
         ],
     },
     {
@@ -44,13 +49,19 @@ const groupedSkills = [
             { name: "Next.JS", image: Next },
             { name: "React Native", image: react},
             { name: "FastAPI", image: fast },
+            { name: "Node.JS", image: node },
+        ],
+    },
+    {
+        title: "Software Architecture",
+        skills: [
             { name: "Monolithic Architecture", image: mono },
             { name: "Microservices Architecture", image: mico },
 
         ],
     },
     {
-        title: "Princples of AI & LLM",
+        title: "Princples of RAG & LLM",
         skills: [
             { name: "RAG", image: RAG },
             { name: "LLM Integration", image: LLM },
@@ -59,14 +70,14 @@ const groupedSkills = [
         ],
     },
     {
-        title: "Dealdealt with Baas",
+        title: "Dealt with Baas",
         skills: [
             { name: "Supabase Database", image: supabase },
             { name: "Convex", image: convex },
         ],
     },
     {
-        title: "Dealdealt with Services",
+        title: "Dealt with Services",
         skills: [
             { name: "Clerk Authintication", image: clerk },
             { name: "Stripe Payment", image: stripe },
